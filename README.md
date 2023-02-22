@@ -3,7 +3,7 @@
 Code for random generative art pieces that don't fit anywhere else...
 
 <p align="center">
-<img src="Images/dither.png" width="100%">
+<img src="Images/dither.png" width="96%">
 </p>
 
 <p align="center">
@@ -19,5 +19,5 @@ Code for random generative art pieces that don't fit anywhere else...
 </p>
 
 <p align="center">
-<img src="Images/circles_twitter_banner.png?raw=true" width="100%">
+<img src="Images/circles_twitter_banner.png" width="96%">
 </p>
