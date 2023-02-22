@@ -71,9 +71,10 @@ dither <- function(img_path,
     scale_y_reverse() +
     scale_fill_manual(values = palette) +
     scale_alpha_continuous(range = c(0.05, 0.9)) +
-    coord_fixed() +
+    coord_fixed(expand = FALSE) +
     theme_void() +
-    theme(legend.position = "none")
+    theme(legend.position = "none",
+          plot.margin = margin(0,0,0,0))
   
   # Save
   ggsave(p, filename = filename,
@@ -85,7 +86,8 @@ dither <- function(img_path,
   return(p)
 }
 
-dither("Photos/IMG_2478.JPG", palette = viridis::magma(n = 5))
+dither("Photos/IMG_2478.JPG", palette = viridis::magma(n = 5), filename = "Images/dither.png")
+dither("Photos/owl.jpg", palette = viridis::magma(n = 5), filename = "Images/owl.png")
 
 
 # To Do -------------------------------------------------------------------
