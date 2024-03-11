@@ -7,6 +7,10 @@ Code for random generative art pieces that don't fit anywhere else...
 </p>
 
 <p align="center">
+<img src="Images/park.png" width="96%">
+</p>
+
+<p align="center">
 <img src="Images/sketchy_divide_1.png" width="32%">
 <img src="Images/sketchy_divide_2.png" width="32%">
 <img src="Images/sketchy_divide_3.png" width="32%">
