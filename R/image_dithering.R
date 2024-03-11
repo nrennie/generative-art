@@ -89,7 +89,3 @@ dither <- function(img_path,
 dither("Photos/IMG_2478.JPG", palette = viridis::magma(n = 5), filename = "Images/dither.png")
 dither("Photos/owl.jpg", palette = viridis::magma(n = 5), filename = "Images/owl.png")
 
-
-# To Do -------------------------------------------------------------------
-
-#TODO: add this to a package somewhere (aRt?)
