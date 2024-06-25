@@ -3,6 +3,10 @@
 Code for random generative art pieces that don't fit anywhere else...
 
 <p align="center">
+<img src="Images/network.gif" width="96%">
+</p>
+
+<p align="center">
 <img src="Images/dither.png" width="96%">
 </p>
 
