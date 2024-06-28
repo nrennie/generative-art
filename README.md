@@ -11,6 +11,14 @@ Code for random generative art pieces that don't fit anywhere else...
 </p>
 
 <p align="center">
+<img src="Images/nexus.png" width="96%">
+</p>
+
+<p align="center">
+<img src="Images/crosshatch.png" width="96%">
+</p>
+
+<p align="center">
 <img src="Images/park.png" width="96%">
 </p>
 
