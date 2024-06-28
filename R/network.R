@@ -109,21 +109,21 @@ library(camcorder)
 gg_record(
   dir = file.path("Images", "recording"),
   device = "png",
-  width = 4,
-  height = 4,
-  units = "in",
+  width = 850,
+  height = 300,
+  units = "px",
   dpi = 300
 )
-network(n_x = 10, n_y = 10,
+network(n_x = 12, n_y = 4,
   line_col = "grey80",
   col_palette = PrettyCols::prettycols("TangerineBlues")
 )
-gg_playback(
-  name = file.path("Images", "network.gif"),
-  first_image_duration = 4,
-  last_image_duration = 20,
-  frame_duration = .25,
-  background = "white",
-  last_as_first = FALSE
+png_path <- list.files("Images/recording", full.names = TRUE)
+gifski::gifski(
+  png_files = png_path,
+  gif_file = "Images/network.gif",
+  delay = 0.25,
+  width = 850,
+  height = 300
 )
-
+unlink("Images/recording", recursive = TRUE)
