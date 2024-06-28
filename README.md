@@ -2,7 +2,7 @@
 
 <p align="center">
 <img src="Images/sketchy_divide.png" width="32%">
-<img src="Images/network.gif" width="32%">
+<img src="Images/tiled_streams.png" width="32%">
 <img src="Images/code_golf.png" width="32%">
 </p>
 
@@ -10,6 +10,10 @@
 <img src="Images/crosshatch.png" width="32%">
 <img src="Images/nexus.png" width="32%">
 <img src="Images/green_spiral.png" width="32%">
+</p>
+
+<p align="center">
+<img src="Images/network.gif" width="96%">
 </p>
 
 ## Image Processing
