@@ -3,7 +3,9 @@
 Code for random generative art pieces that don't fit anywhere else...
 
 <p align="center">
-<img src="Images/dither.png" width="96%">
+<img src="Images/image.jpg" width="32%">
+<img src="Images/dither.png" width="32%">
+<img src="Images/to_font.png" width="32%">
 </p>
 
 <p align="center">
