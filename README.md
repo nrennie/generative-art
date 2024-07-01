@@ -7,6 +7,11 @@
 </p>
 
 <p align="center">
+<img src="Images/dense.png" width="58%">
+<img src="Images/porto.png" width="58%">
+</p>
+
+<p align="center">
 <img src="Images/wander.png" width="32%">
 <img src="Images/riso_circles.png" width="32%">
 <img src="Images/window_boxes.png" width="32%">

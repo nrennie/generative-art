@@ -4,3 +4,4 @@
 .Ruserdata
 Images/recording/
 *.Rproj
+Python/pyArt/__pycache__/*
