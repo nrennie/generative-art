@@ -12,5 +12,5 @@ pn.ggsave(p, filename="Images/nexus.png", height=5, width=5, dpi=300)
 
 # Nexus
 import Python.pyArt.dense as dense
-p = dense.dense(mu_x = np.array([0]), mu_y = np.array([0]), n_samples = 100, lvls = 15, s = 1234, col1 = '#333333', col2 = '#FFA500')
+p = dense.dense(mu_x = [0], mu_y = [0], n_samples = 100, lvls = 15, s = 1234, col1 = '#333333', col2 = '#FFA500')
 pn.ggsave(plot=p,filename="Images/dense.png", height=5, width=5, dpi=300)
