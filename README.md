@@ -7,8 +7,8 @@
 </p>
 
 <p align="center">
-<img src="Images/dense.png" width="58%">
-<img src="Images/porto.png" width="58%">
+<img src="Images/dense.png" width="48%">
+<img src="Images/porto.png" width="48%">
 </p>
 
 <p align="center">
