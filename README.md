@@ -1,14 +1,19 @@
 # Generative art
 
 <p align="center">
+<img src="Images/dense.png" width="48%">
+<img src="Images/porto.png" width="48%">
+</p>
+
+<p align="center">
 <img src="Images/split_grid.png" width="32%">
 <img src="Images/abacus.png" width="32%">
 <img src="Images/split_jitter.png" width="32%">
 </p>
 
 <p align="center">
-<img src="Images/dense.png" width="48%">
-<img src="Images/porto.png" width="48%">
+<img src="Images/fifty_one_r.png" width="48%">
+<img src="Images/fifty_one_py.png" width="48%">
 </p>
 
 <p align="center">
