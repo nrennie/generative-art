@@ -1,6 +1,14 @@
 # Generative art
 
 <p align="center">
+<img src="Images/stream1.png" width="19%">
+<img src="Images/stream2.png" width="19%">
+<img src="Images/stream3.png" width="19%">
+<img src="Images/stream4.png" width="19%">
+<img src="Images/stream5.png" width="19%">
+</p>
+
+<p align="center">
 <img src="Images/dense.png" width="48%">
 <img src="Images/porto.png" width="48%">
 </p>
