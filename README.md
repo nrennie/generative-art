@@ -9,6 +9,12 @@
 </p>
 
 <p align="center">
+<img src="Images/gridle_1.png" width="32%">
+<img src="Images/gridle_2.png" width="32%">
+<img src="Images/gridle_3.png" width="32%">
+</p>
+
+<p align="center">
 <img src="Images/dense.png" width="48%">
 <img src="Images/porto.png" width="48%">
 </p>
