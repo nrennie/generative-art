@@ -1,6 +1,12 @@
 # Generative art
 
 <p align="center">
+<img src="Images/quadrants1.png" width="32%">
+<img src="Images/quadrants2.png" width="32%">
+<img src="Images/quadrants3.png" width="32%">
+</p>
+
+<p align="center">
 <img src="Images/stream1.png" width="19%">
 <img src="Images/stream2.png" width="19%">
 <img src="Images/stream3.png" width="19%">
