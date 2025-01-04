@@ -57,11 +57,3 @@
 <p align="center">
 <img src="Images/network.gif" width="96%">
 </p>
-
-## Image Processing
-
-<p align="center">
-<img src="Images/image.jpg" width="32%">
-<img src="Images/dither.png" width="32%">
-<img src="Images/to_font.png" width="32%">
-</p>
