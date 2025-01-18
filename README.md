@@ -1,7 +1,8 @@
 # Generative art
 
 <p align="center">
-<img src="Images/gradients2.png" width="96%">
+<img src="Images/squares.png" width="48%">
+<img src="Images/gradients2.png" width="48%">
 </p>
 
 <p align="center">
