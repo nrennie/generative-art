@@ -6,6 +6,11 @@
 </p>
 
 <p align="center">
+<img src="Images/crochet1.png" width="48%">
+<img src="Images/crochet2.png" width="48%">
+</p>
+
+<p align="center">
 <img src="Images/quadrants1.png" width="32%">
 <img src="Images/quadrants2.png" width="32%">
 <img src="Images/quadrants3.png" width="32%">
