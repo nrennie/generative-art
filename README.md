@@ -1,6 +1,10 @@
 # Generative art
 
 <p align="center">
+<img src="Images/Bubbles.png" width="96%">
+</p>
+
+<p align="center">
 <img src="Images/jagged1.png" width="48%">
 <img src="Images/jagged2.png" width="48%">
 </p>
