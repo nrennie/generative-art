@@ -1,7 +1,7 @@
 window.onload = function() {
   
-  const width = 400;
-  const height = 400;
+  const width = config.settings.width;
+  const height = config.settings.width;
 
   // Generate data
   const data = d3.range(config.data.n).map(() => ({
@@ -16,7 +16,10 @@ window.onload = function() {
 
   // Plot
   const chartContainer = d3.select("#scatter")
-    .style('background-color', config.style.bgCol);
+    .style('background-color', config.style.bgCol)
+    .style('padding', 10 + 'px')
+    .style('margin-top', 10 + 'px')
+    .style('width', config.settings.width + 'px');
 
   const svg = chartContainer
     .append("svg")

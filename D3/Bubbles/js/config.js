@@ -1,12 +1,16 @@
 config={
+    "settings": {
+        "width": 800,
+        "height": 800
+    },
     "data": {
-        "n": 300,
+        "n": 600,
         "xmin": 0,
         "ymin": 0,
-        "xmax": 400,
-        "ymax": 400,
+        "xmax": 800,
+        "ymax": 800,
         "rmin": 3,
-        "rmax": 15,
+        "rmax": 25,
         "fillOpacityMin": 0.2,
         "fillOpacityMax": 0.9
     },
