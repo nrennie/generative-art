@@ -1,6 +1,12 @@
 # Generative art
 
 <p align="center">
+<img src="Images/mono1.png" width="32%">
+<img src="Images/thimbril.png" width="32%">
+<img src="Images/mono2.png" width="32%">
+</p>
+
+<p align="center">
 <img src="Images/jagged1.png" width="48%">
 <img src="Images/jagged2.png" width="48%">
 </p>
