@@ -1,6 +1,10 @@
 # Generative art
 
 <p align="center">
+<img src="Images/gridlocked.png" width="96%">
+</p>
+
+<p align="center">
 <img src="Images/mono1.png" width="32%">
 <img src="Images/thimbril.png" width="32%">
 <img src="Images/mono2.png" width="32%">
