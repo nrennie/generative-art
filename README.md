@@ -17,8 +17,9 @@
 </p>
 
 <p align="center">
-<img src="Images/squares.png" width="48%">
-<img src="Images/gradients2.png" width="48%">
+<img src="Images/squares.png" width="32%">
+<img src="Images/gradients2.png" width="32%">
+<img src="Images/kurve.png" width="32%">
 </p>
 
 <p align="center">
