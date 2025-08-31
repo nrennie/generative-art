@@ -1,6 +1,11 @@
 # Generative art
 
 <p align="center">
+<img src="Images/melting.png" width="48%">
+<img src="Images/orbik.png" width="48%">
+</p>
+
+<p align="center">
 <img src="Images/gridlocked.png" width="48%">
 <img src="Images/striations.png" width="48%">
 </p>
