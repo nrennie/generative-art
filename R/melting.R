@@ -3,8 +3,13 @@ library(ggstream)
 library(PrettyCols)
 library(ggnewscale)
 
-set.seed(1234)
-df <- map_dfr(1:30, ~ {
+# Parameters
+s <- 1234
+col_palette <- PrettyColsPalettes[["Teals"]][[1]]
+
+# Data
+set.seed(s)
+plot_data <- map_dfr(1:30, ~ {
   x <- 1:sample(1:70, 1)
   tibble(x = x + sample(1:150, 1)) %>%
     mutate(
@@ -12,14 +17,13 @@ df <- map_dfr(1:30, ~ {
       k = .x %>% as.character()
     )
 })
+n_fill <- length(unique(plot_data$k))
 
-n_fill <- length(unique(df$k))
-
-col_palette <- PrettyColsPalettes[["Teals"]][[1]]
-
-
-df |>
-  ggplot(aes(x = x, y = y, fill = k)) +
+# Plot
+ggplot(
+  data = plot_data,
+  mapping = aes(x = x, y = y, fill = k)
+) +
   geom_stream(
     bw = 3,
     extra_span = 0.001,
