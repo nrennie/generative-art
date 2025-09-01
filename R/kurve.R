@@ -1,5 +1,7 @@
 library(tidyverse)
 library(PrettyCols)
+library(packcircles)
+library(ggforce)
 
 # Parameters
 n_x <- 3
