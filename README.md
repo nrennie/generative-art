@@ -1,6 +1,12 @@
 # Generative art
 
 <p align="center">
+<img src="Images/interfade.png" width="48%">
+<img src="Images/sedigraph.png" width="48%">
+</p>
+
+
+<p align="center">
 <img src="Images/melting.png" width="32%">
 <img src="Images/orbik.png" width="32%">
 <img src="Images/balloons.png" width="32%">
