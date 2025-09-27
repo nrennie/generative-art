@@ -1,10 +1,16 @@
 # Generative art
 
 <p align="center">
+<img src="Images/blocks1.png" width="24%">
+<img src="Images/blocks2.png" width="24%">
+<img src="Images/blocks3.png" width="24%">
+<img src="Images/blocks4.png" width="24%">
+</p>
+
+<p align="center">
 <img src="Images/interfade.png" width="48%">
 <img src="Images/sedigraph.png" width="48%">
 </p>
-
 
 <p align="center">
 <img src="Images/melting.png" width="32%">

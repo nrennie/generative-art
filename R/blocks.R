@@ -1,6 +1,5 @@
 library(tidyverse)
 library(monochromeR)
-library(patchwork)
 
 # Parameters
 col_palette <- c("#087E8B", "#88AA33", "#034C3C", "#320E3B", "#7E2395", "#D1236C")
@@ -155,19 +154,30 @@ block_3 <- function(col_palette, bg_col, n_y = 4, margin = 0.05) {
 
 
 
-# Join together with patchwork
-set.seed(1234)
-b1 <- block_1(col_palette, bg_col, n_y = 8) + coord_flip() + scale_x_reverse()
-b2 <- block_2(col_palette, bg_col) + coord_flip() + scale_x_reverse()
-b3 <- block_2(col_palette, bg_col, n_y = 7) + coord_flip() + scale_x_reverse()
-b4 <- block_3(col_palette, bg_col, n_y = 6) + coord_flip() + scale_x_reverse()
-all_plots <- list(b2, b1, b3, b4)
-
-wrap_plots(all_plots, nrow = 1) &
-  theme(plot.margin = margin(0, 0, 0, 0))
-
+# Save
+set.seed(2025)
 width <- 900
-ggplot2::ggsave("Images/blocks.png",
+
+block_1(col_palette, bg_col, n_y = 8)
+ggplot2::ggsave("Images/blocks1.png",
   height = width,
-  width = length(all_plots) * width, units = "px"
+  width = width, units = "px"
+)
+
+block_2(col_palette, bg_col)
+ggplot2::ggsave("Images/blocks2.png",
+  height = width,
+  width = width, units = "px"
+)
+
+block_2(col_palette, bg_col, n_y = 7)
+ggplot2::ggsave("Images/blocks3.png",
+  height = width,
+  width = width, units = "px"
+)
+
+block_3(col_palette, bg_col, n_y = 6)
+ggplot2::ggsave("Images/blocks4.png",
+  height = width,
+  width = width, units = "px"
 )
