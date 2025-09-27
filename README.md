@@ -8,6 +8,10 @@
 </p>
 
 <p align="center">
+<img src="Images/quadtri.png" width="96%">
+</p>
+
+<p align="center">
 <img src="Images/interfade.png" width="48%">
 <img src="Images/sedigraph.png" width="48%">
 </p>
