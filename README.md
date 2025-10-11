@@ -13,7 +13,7 @@
 
 <p align="center">
 <img src="Images/interfade.png" width="48%">
-<img src="Images/sedigraph.png" width="48%">
+<img src="Images/sedigraph1.png" width="48%">
 </p>
 
 <p align="center">

@@ -43,7 +43,7 @@ sedigraph <- function(
         fill = col
       ),
       colour = bg_col,
-      linewidth = 1,
+      linewidth = 0.5,
     ) +
     geom_point(
       data = circle_data,
@@ -59,15 +59,30 @@ sedigraph <- function(
 
 
 # Save
-sedigraph(s = 2025,
-          n_x_min = 6,
-          n_x_max = 12,
-          col_palette = c("#99e6f0", "#cc444c", "#feef97", "#debe44"),
-          bg_col = "#e9f1f7",
-          n_dots = 50000, dot_size = 0.05)
+sedigraph(
+  s = 2025,
+  n_x_min = 6,
+  n_x_max = 12,
+  col_palette = c("#99e6f0", "#cc444c", "#feef97", "#debe44"),
+  bg_col = "#e9f1f7",
+  n_dots = 50000, dot_size = 0.05
+)
+ggplot2::ggsave("Images/sedigraph1.png",
+  width = 5, height = 5, units = "in"
+)
 
-
-
-ggplot2::ggsave("Images/sedigraph.png",
+sedigraph(
+  s = 2025,
+  n_x_min = 15,
+  n_x_max = 20,
+  col_palette = c(
+    "#28282A", "#F46036", "#2e2e30",
+    "#1E1E1F", "#3C3C3E", "#50b848",
+    "#1B2321", "#5d2586", "#121716"
+  ),
+  bg_col = "#141415",
+  n_dots = 70000, dot_size = 0.08
+)
+ggplot2::ggsave("Images/sedigraph2.png",
   width = 5, height = 5, units = "in"
 )
