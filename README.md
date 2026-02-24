@@ -1,6 +1,12 @@
 # Generative art
 
 <p align="center">
+<img src="Images/confetti.png" width="32%">
+<img src="Images/squareburst.png" width="32%">
+<img src="Images/nightlights.png" width="32%">
+</p>
+
+<p align="center">
 <img src="Images/blocks1.png" width="24%">
 <img src="Images/blocks2.png" width="24%">
 <img src="Images/blocks3.png" width="24%">
